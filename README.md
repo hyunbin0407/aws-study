@@ -12,7 +12,7 @@ AWS를 처음 공부하면서 정리하는 기록입니다. Claude와 대화하�
 
 - [x] 1. 클라우드 컴퓨팅 & AWS 개요 (클라우드란, 리전/가용영역/엣지 로케이션, AWS 글로벌 인프라)
 - [x] 2. IAM (계정 보안 기초: 루트 계정, 사용자/그룹/역할, 정책, MFA)
-- [ ] 3. EC2 (컴퓨팅 기초: 인스턴스, AMI, 보안 그룹, 키 페어, 인스턴스 유형)
+- [x] 3. EC2 (컴퓨팅 기초: 인스턴스, AMI, 보안 그룹, 키 페어, 인스턴스 유형)
 - [ ] 4. VPC (네트워킹 기초: 서브넷, 라우팅 테이블, 인터넷 게이트웨이, NAT, 보안 그룹 vs NACL)
 - [ ] 5. S3 (스토리지: 버킷/객체, 스토리지 클래스, 버전 관리, 정책)
 - [ ] 6. RDS & DynamoDB (관계형 DB vs NoSQL, 기본 운영)
@@ -38,6 +38,10 @@ labs/
     README.md          # 콘솔/CLI 단계별 실습 가이드
     policies/*.json     # 실습에 쓰는 IAM 정책 예제
     cli-commands.sh      # AWS CLI 명령어 모음(참고용)
+  03-ec2/
+    README.md          # 콘솔/CLI 단계별 실습 가이드
+    user-data.sh         # 인스턴스 부팅 시 웹서버 자동 설치 스크립트
+    cli-commands.sh      # AWS CLI 명령어 모음(참고용)
   ...
 ```
 
@@ -57,3 +61,4 @@ labs/
 |---|---|---|---|---|
 | 1 | 클라우드 컴퓨팅 & AWS 개요 | 2026-09-15 | [notes/01-cloud-and-aws-overview.md](notes/01-cloud-and-aws-overview.md) | - |
 | 2 | IAM | 2026-09-17 | [notes/02-iam.md](notes/02-iam.md) | [labs/02-iam/](labs/02-iam/) |
+| 3 | EC2 | 2026-09-23 | [notes/03-ec2.md](notes/03-ec2.md) | [labs/03-ec2/](labs/03-ec2/) |
